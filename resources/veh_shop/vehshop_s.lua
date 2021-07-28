@@ -230,7 +230,8 @@ function updateCarDueDates()
             end
             print("^1[Evolved RP] ^5Updated all Financing Due Dates for ^2" .. changed .. "^5 vehicles.^7")
         end
-    )
+        print('^1[NoPixel RP] ^5Updated all Financing Due Dates for ^2' ..changed ..'^5 vehicles.^7')
+    end)
 end
 
 TriggerEvent("cron:runAt", 16, 0, updateCarDueDates)

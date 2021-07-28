@@ -1,5 +1,4 @@
 # NoPixel
-Forked from xwxy/NoPixelServer
 
 A few fixes to NoPixelServer. No guarantee that I'll work on this any more.
 

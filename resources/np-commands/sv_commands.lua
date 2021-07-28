@@ -78,7 +78,6 @@ function IsWhiteListed(hexId, characterId, callback)
 end
 
 function IsWhiteListedJudge(characterId, callback)
-    -- Nikez's Code ((Swxy#0001))
     if not characterId then
         return
     end

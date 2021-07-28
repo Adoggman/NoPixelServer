@@ -134,7 +134,7 @@ AddEventHandler("playerDropped", function()
 end)
 
 function HexIdToSteamId(hexId)
-    local cid = math.floor(tonumber(string.sub(hexId, 7), 16))
+    local cid = math.floor(tonumber(string.sub( hexId, 7), 16))
 	local steam64 = math.floor(tonumber(string.sub( cid, 2)))
 	local a = steam64 % 2 == 0 and 0 or 1
 	local b = math.floor(math.abs(6561197960265728 - steam64 - a) / 2)

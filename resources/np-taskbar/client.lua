@@ -61,8 +61,8 @@ AddEventHandler('coffee:drink', function()
 end)
 
 
--- command is something we do in the loop if we want to disable more, IE a vehicle engine.
--- return true or false, if false, gives the % completed.
+-- command is something we do in the loop if we want to disable more, IE a vehicle engine. --
+-- return true or false, if false, gives the % completed. --
 local taskInProcess = false
 function taskBar(length,name,runCheck,keepWeapon,vehicle,vehCheck)
     local playerPed = PlayerPedId()

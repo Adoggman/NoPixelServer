@@ -1,4 +1,4 @@
--- Swxy#0001 thx nikez
+--  thx nikez
 useNativeAudio = false
 use3dAudio = true
 useSendingRangeOnly = true
@@ -25,7 +25,7 @@ AddEventHandler("onResourceStart", function(resName) -- Initialises the script, 
 	-- 	MumbleCreateChannel(i)
 	-- end
 
-	Debug("[np:voice] Initialised Script -Swxy#0001")
+	Debug("[np:voice] Initialised Script")
 end)
 
 
